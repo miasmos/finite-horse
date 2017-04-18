@@ -1,0 +1,26 @@
+{
+  "name": "finite-horse",
+  "version": "1.0.0",
+  "description": "An extension that makes endless.horse less endless.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "webpack -p --progress --config ./webpack.prod.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephenpoole/finite-horse.git"
+  },
+  "author": "Stephen Poole",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-flatten": "^0.3.1",
+    "gulp-zip": "^4.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/stephenpoole/simple-audio-fader/issues"
+  },
+  "homepage": "https://github.com/stephenpoole/simple-audio-fader#readme",
+  "dependencies": {
+  }
+}
